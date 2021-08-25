@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/gabri/AndroidStudioProjects/SenacBet/app/src/main/res/drawable/background.xml" value="1.4321428571428572" />
+        <entry key="..\:/Users/gabri/AndroidStudioProjects/SenacBet/app/src/main/res/drawable/button.xml" value="0.2703125" />
+        <entry key="..\:/Users/gabri/AndroidStudioProjects/SenacBet/app/src/main/res/drawable/container_components.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/gabri/AndroidStudioProjects/SenacBet/app/src/main/res/drawable/edit_text.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/gabri/AndroidStudioProjects/SenacBet/app/src/main/res/layout/activity_form_cadastro_apostador.xml" value="0.25271739130434784" />
+        <entry key="..\:/Users/gabri/AndroidStudioProjects/SenacBet/app/src/main/res/layout/activity_form_cadastro_time.xml" value="0.17346014492753623" />
+        <entry key="..\:/Users/gabri/AndroidStudioProjects/SenacBet/app/src/main/res/layout/activity_main.xml" value="0.17346014492753623" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

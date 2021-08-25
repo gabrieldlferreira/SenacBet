@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".FormCadastroApostador">
+
+    <View
+        android:id="@+id/containerComponents2"
+        style="@style/ContainerComponents"
+        android:layout_marginTop="108dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editNome"
+        style="@style/EditText"
+        android:hint="Nome"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents2"
+        app:layout_constraintStart_toStartOf="@id/containerComponents2"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/editSaldo"
+        style="@style/EditText"
+        android:layout_marginTop="80dp"
+        android:hint="Saldo"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents2"
+        app:layout_constraintStart_toStartOf="@id/containerComponents2"
+        app:layout_constraintTop_toTopOf="@+id/editNome" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        style="@style/EditText"
+        android:layout_marginTop="80dp"
+        android:hint="E-mail"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents2"
+        app:layout_constraintStart_toStartOf="@id/containerComponents2"
+        app:layout_constraintTop_toTopOf="@+id/editSaldo" />
+
+    <Button
+        android:id="@+id/buttonCadastrar2"
+        style="@style/Button"
+        android:text="Cadastrar"
+        android:layout_marginTop="96dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editEmail" />
+
+    <Button
+        android:id="@+id/buttonAvancar2"
+        style="@style/Button"
+        android:text="Avançar"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buttonCadastrar2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

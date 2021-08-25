@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".FormCadastroTime">
+
+    <View
+        android:id="@+id/containerComponents"
+        style="@style/ContainerComponents"
+        android:layout_marginTop="108dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTime"
+        style="@style/EditText"
+        android:hint="Nome do seu Time"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        app:layout_constraintStart_toStartOf="@id/containerComponents"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/editCidade"
+        style="@style/EditText"
+        android:layout_marginTop="80dp"
+        android:hint="Cidade"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        app:layout_constraintStart_toStartOf="@id/containerComponents"
+        app:layout_constraintTop_toTopOf="@+id/editTime" />
+
+    <EditText
+        android:id="@+id/editPais"
+        style="@style/EditText"
+        android:layout_marginTop="80dp"
+        android:hint="País"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        app:layout_constraintStart_toStartOf="@id/containerComponents"
+        app:layout_constraintTop_toTopOf="@+id/editCidade" />
+
+    <Button
+        android:id="@+id/buttonCadastrar"
+        style="@style/Button"
+        android:text="Cadastrar"
+        android:layout_marginTop="96dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editPais" />
+
+    <Button
+        android:id="@+id/buttonAvancar"
+        style="@style/Button"
+        android:text="Avançar"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buttonCadastrar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
